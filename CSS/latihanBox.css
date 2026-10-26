@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: rgb(255, 22, 166);
+}
+
+.box {
+    height: 130px;
+    background-color: #8fc5e8;
+    border: 5px solid #222;
+    color: #8fc5e8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid rgb(255, 22, 166);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.box {
+    height: 130px;
+    background-color: rgb(255, 58, 173);
+    border: 5px solid #76f5f5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
